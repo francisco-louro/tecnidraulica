@@ -27,7 +27,7 @@ const Footer = () => {
           {/* logo & text */}
           <div className="flex-1">
             <Link href="/" className="flex mb-6">
-              <Image src="/assets/logo.PNG" width={250} height={60} alt="" />
+              <Image src="/assets/logo.png" width={250} height={60} alt="" />
             </Link>
             <p className="text-border max-w-[270px]">
               O seu parceiro na manutenção dos seus equipamentos móveis e

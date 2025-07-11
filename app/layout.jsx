@@ -16,7 +16,7 @@ const barlow = Barlow({
 });
 
 export const metadata = {
-  title: "Hidráulica, Pneumática e assistência técnica | Tecnidraulica",
+  title: "Tecnidraulica | Hidráulica, Pneumática e Assistência Técnica",
   description:
     "Serviços de manutenção de equipamentos móveis e industriais na área da óleo-hidráulica e pneumática",
   keywords: [

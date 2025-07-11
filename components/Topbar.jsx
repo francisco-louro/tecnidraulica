@@ -17,7 +17,7 @@ const Topbar = () => {
                 <RiPhoneFill />
               </div>
               <p className="font-medium text-primary">
-                211 306 213 - 915 273 862 - 915 273 840
+                215 832 631 - 915 273 862 - 915 273 840
               </p>
             </div>
             {/* mail */}

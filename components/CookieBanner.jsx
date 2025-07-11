@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Cookies from "js-cookie";
 import { getCookieConsent, setCookieConsent } from "../lib/cookies";
 
 export default function CookieBanner() {
@@ -87,7 +86,7 @@ export default function CookieBanner() {
             site são partilhadas com a Google. Se clicar em "Aceitar", concorda
             com a utilização de cookies.{" "}
             <Link href="/privacy-policy" className="underline">
-              Política de Cookies
+              Política de Privacidade & Política de Cookies
             </Link>{" "}
             {/*<button onClick={() => setShowSettings(true)} className="underline">
               Definições de Cookies
@@ -132,7 +131,7 @@ export default function CookieBanner() {
                 />
               </div>
               <p className="text-sm text-gray-600">
-                Essential for the website to function.
+                Essencial para o funcionamento do site.
               </p>
             </div>
 

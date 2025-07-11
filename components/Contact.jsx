@@ -1,6 +1,7 @@
 import { RiChat1Line, RiMapPin2Line, RiSmartphoneLine } from "react-icons/ri";
 import Socials from "./Socials";
 import Form from "./Form";
+import Link from "next/link";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
@@ -58,7 +59,18 @@ const Contact = () => {
                       Venha conhecer as nossas instalações.
                     </p>
                     <p className="font-semibold text-primary">
-                      Agualva-Cacém - Portugal
+                      Centro Empresarial do Cacém - Armazém A
+                      <br />
+                      Estrada de Paço de Arcos 167 S.Marcos 2739-509
+                      Agualva Cacém &nbsp;&nbsp; (
+                      <Link
+                        target="_blank"
+                        href="https://maps.app.goo.gl/8BCaMsU6kAfLuCLw8"
+                        className="text-accent underline"
+                      >
+                        Ver localização
+                      </Link>
+                      )
                     </p>
                   </div>
                 </div>

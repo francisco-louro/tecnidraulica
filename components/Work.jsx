@@ -6,27 +6,27 @@ import { RiArrowRightUpLine, RiCheckboxCircleFill } from "react-icons/ri";
 
 const workData = [
   {
-    img: "/assets/img/work/hidraulica-3.jpg",
-    name: "restoration",
-    description: "Your short description",
+    img: "/assets/img/work/tecnico-em-acao-na-instalacao-industrial.jpg",
+    name: "Instalação",
+    description: "Técnico em ação na instalação industrial",
     href: "",
   },
   {
-    img: "/assets/img/work/hidraulica-2.jpg",
-    name: "construction",
-    description: "Your short description",
+    img: "/assets/img/work/tecnico-repara-bomba-hidraulica.jpg",
+    name: "Hidráulica",
+    description: "Técnico repara bomba hidraulica",
     href: "",
   },
   {
-    img: "/assets/img/work/pneumatica-1.jpg",
-    name: "renovation",
-    description: "Your short description",
+    img: "/assets/img/work/tecnico-repara-grua-de-carga.jpg",
+    name: "Hidráulica",
+    description: "Técnico repara grua de carga",
     href: "",
   },
   {
-    img: "/assets/img/work/hidraulica-1.jpg",
-    name: "consulting",
-    description: "Your short description",
+    img: "/assets/img/work/tecnico.jpg",
+    name: "Pneumática",
+    description: "Técnico verifica pressão",
     href: "",
   },
 ];
@@ -73,23 +73,25 @@ const Work = () => {
                 alt="Soluções Óleo-Hidráulicas e Pneumáticas"
                 quality={100}
               />
-              {/*<div className="w-[90%] h-[84px] bg-primary absolute bottom-4 flex justify-between items-center text-white md:translate-y-[108px] md:group-hover:translate-y-0 transition-all duration-500">
-                <div className="pl-8">
-                  <h4 className="text-white font-primary font-semibold tracking-[1px] uppercase">
-                    {item.name}
-                  </h4>
-                  <div className="flex items-center gap-1">
-                    <RiCheckboxCircleFill className="text-accent text-xl" />
-                    <p>{item.description}</p>
+              {
+                <div className="w-[90%] h-[84px] bg-primary absolute bottom-4 flex justify-between items-center text-white md:translate-y-[108px] md:group-hover:translate-y-0 transition-all duration-500">
+                  <div className="pl-8">
+                    <h4 className="text-white font-primary font-semibold tracking-[1px] uppercase">
+                      {item.name}
+                    </h4>
+                    <div className="flex items-center gap-1">
+                      <RiCheckboxCircleFill className="text-accent text-xl" />
+                      <p>{item.description}</p>
+                    </div>
                   </div>
+                  {/*<Link
+                    href={item.href}
+                    className="w-[44px] xl:w-[60px] xl:h-[60px] h-[44px] bg-accent text-primary text-2xl flex justify-center items-center absolute right-3"
+                  >
+                    <RiArrowRightUpLine />
+                  </Link>*/}
                 </div>
-                <Link
-                  href={item.href}
-                  className="w-[44px] xl:w-[60px] xl:h-[60px] h-[44px] bg-accent text-primary text-2xl flex justify-center items-center absolute right-3"
-                >
-                  <RiArrowRightUpLine />
-                </Link>
-              </div>*/}
+              }
             </div>
           );
         })}

@@ -2,6 +2,7 @@ import { DM_Sans, Barlow } from "next/font/google";
 import "./globals.css";
 
 import CookieBanner from "@/components/CookieBanner";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const dmSans = DM_Sans({
   variable: "--font-dmSans",
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
         {children}
+        <GoogleAnalytics gaId="UA-199795974-1" />
         <CookieBanner />
       </body>
     </html>
